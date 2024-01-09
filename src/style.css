@@ -46,7 +46,6 @@ li {
 }
 
 .weather-app {
-  display: flex;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   border: 1px solid #dadde1;
@@ -55,22 +54,21 @@ li {
 }
 
 .col1 {
-  flex: 2;
   background: linear-gradient(to bottom, #E2FDFF,#99C4FF );
   border-radius: 10px;
   padding: 10px;
 }
 
 .col2 {
-  flex: 1;
   background-color: #edede9;
-  grid-template-rows: repeat (5, 1fr)l
   border-radius: 10px;
   padding: 10px;
 }
 
 .WeatherInfo {
   margin-top: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .WeatherInfo .temperature-container {
@@ -149,4 +147,3 @@ li {
     margin-left: 10px;
     opacity: 0.6;
   }
-
