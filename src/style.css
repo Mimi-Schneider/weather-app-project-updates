@@ -51,18 +51,21 @@ li {
   border: 1px solid #dadde1;
   padding: 15px;
   margin: 20px auto;
+  display: flex;
 }
 
 .col1 {
   background: linear-gradient(to bottom, #E2FDFF,#99C4FF );
   border-radius: 10px;
   padding: 10px;
+  flex: 1;
 }
 
 .col2 {
   background-color: #edede9;
   border-radius: 10px;
   padding: 10px;
+  flex: 2;
 }
 
 .WeatherInfo {

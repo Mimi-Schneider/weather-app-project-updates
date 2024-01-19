@@ -20,15 +20,15 @@
     <div class="weather-app-wrapper">
       <div class="weather-app">
         <div class="WeatherInfo">
-          <div class="col-6 col1">
-            <div class="col-6">
+          <div class="col1">
+            <div class="col-5">
               <h2 id="city"></h2>
               <ul>
                 <li>Last Updated: <span id="date"></span></li>
                 <li id="description"></li>
               </ul>
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-8">
+            <div class="col1">
               <div class="temperature-container d-flex justify-content-end">
                 <img src="" class="float-left" alt="icon description" id="current-icon" />
                 <div class="float-left">
@@ -36,23 +36,24 @@
                   <span class="units">
                     <a href="#" id="fahrenheit-link" class="active">°F</a> |
                     <a href="#" id="celsius-link">°C</a></span>
+                    <ul>
+                      <li>Feels Like: <span id="feels"></span>°F </li>
+                      <li>Humidity: <span id="humidity"></span>%</li>
+                      <li>Wind: <span id="wind"></span> <span style="text-transform: lowercase;">mph</span></li>
+                    </ul>
                 </div>
               </div>
             </div>
-            <div class="col-6">
-              <ul>
-                <li>Feels Like: <span id="feels"></span>°F </li>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> <span style="text-transform: lowercase;">mph</span></li>
-              </ul>
+            <div class="col-5">
+
             </div>
           </div>
-          <div class="col-6 col2">
+          <div class="col2">
             <div class="WeatherForecast" id="forecast">
             </div>
             <form class="search-form" id="search-form">
               <div class="row">
-                <div class="col-6">
+                <div class="col-8">
                   <input type="search" placeholder="Find a New City" autofocus="on" autocomplete="off" id="city-input"
                     class="form-control shadow-sm" />
                 </div>
@@ -65,10 +66,7 @@
           </div>
           </form>
         </div>
-        <small>
-          <a href="https://github.com/Mimi-Schneider/weather-app.git" target="blank"> Open Source Code In Progress
-          </a> By Mimi
-        </small>
+ 
       </div>
     </div>
     <script src="src/app.js"></script>
