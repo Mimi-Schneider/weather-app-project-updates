@@ -69,7 +69,6 @@ li {
 }
 
 .WeatherInfo {
-  margin-top: 20px;
   display: flex;
   align-items: center;
 }
@@ -98,6 +97,13 @@ li {
   cursor: default;
 }
 
+input[type="search"] {
+  border: none;
+  outline: none;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
 .find-button{
   background: #023047;
   color: white;
@@ -113,9 +119,10 @@ li {
   }
   
   .search-form {
-    border-bottom: 1px solid #f9f7fe;
-    margin-top: 40px;
+    border-top: 1px solid #f9f7fe;
+    margin-top: 50px;
     padding-bottom: 30px;
+    padding-top: 10px;
     margin-bottom: 20px;
   }
 
@@ -128,7 +135,9 @@ li {
     text-align: center;
     margin: 40px 0;
     border-bottom: 1px solid #f9f7fe;
+    border-top: 1px solid #f9f7fe;
     padding-bottom: 50px;
+    padding-top: 50px;
   }
   
   .WeatherForecast .forecast-time {
