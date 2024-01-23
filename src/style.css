@@ -82,7 +82,8 @@ li {
 
 .WeatherInfo {
   align-items: center;
-  display: flex;
+  display: grid;
+  grid-template-rows: auto auto;
 }
 
 .WeatherInfo .temperature-container {
