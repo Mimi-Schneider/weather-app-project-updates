@@ -96,14 +96,17 @@ li {
   font-size: 75px;
   font-weight: 400;
   line-height: 1;
-  float:left;
+}
+
+.current-div {
+  margin-top:50px;
 }
 
 .weather-container .units {
   position: relative;
   font-size: 16px;
   color: #023047
-  top: -34px
+  margin-top: -34px;
 }
 
 .weather-container .active {
